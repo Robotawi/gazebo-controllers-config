@@ -1,6 +1,6 @@
 # Gazebo Controllers Configuration
 
-This repository explains systematic steps for setting Gazebo controllers config file to properly start spawned robots controllers. This content completes the previous two repos [rrr_arm]() and [rrr_arm_config](). The first shows a simple arm built from primitive geometry and interfaced wih Gazebo. The second explains how to use MoveIt assistant with the simple arm.
+This repository explains systematic steps for setting Gazebo controllers config file to properly start spawned robots controllers. This content completes the previous two repos [rrr_arm](https://github.com/Robotawi/rrr-arm) and [rrr_arm_config](https://github.com/Robotawi/rrr_arm_config). The first shows a simple arm built from primitive geometry and interfaced wih Gazebo. The second explains how to use MoveIt assistant with the simple arm.
 
 I noticed an issue with MoveIt's setup assistant that is the auto generated controllers config files do not work directly as expected. This results in starting Gazebo with arms fallen down. I will explain the systematic steps to get a join controlled from writing the joint model to launching its controller. 
 
